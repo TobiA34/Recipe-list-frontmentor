@@ -92,12 +92,16 @@ td, th {
 }
 
  
-@media screen  and (min-width:376px){
+@media screen  and (min-width: 375px){
     body{
         background: #F3E5D7;
+             display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .wrapper {
         padding: 200px;
+        width: 100%;
     }
 
     .card {
