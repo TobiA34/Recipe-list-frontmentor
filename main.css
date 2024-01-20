@@ -91,11 +91,11 @@ td, th {
   padding: 8px;
 }
  
-@media (min-width:400px) and (max-width:899px) {
+@media (min-width:376px) and (max-width:899px) {
   .logo {
         padding: 0 24px;
         margin-top: 40px;
-        width: 85%;
+        width: 80%;
     }
 
       body{
