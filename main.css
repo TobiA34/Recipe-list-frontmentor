@@ -1,0 +1,122 @@
+   @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+ 
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ 
+
+.padding {
+    padding: 40px 32px;
+}
+
+.padding-2 {
+    padding: 24px;
+}
+
+.mt-4 {
+    margin-top: 40px;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.ml-16 {
+    margin-left: 16px;
+}
+
+.my-8 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.mt-32 {
+    margin-top: 32px;
+}
+
+.mb-32 {
+    margin-bottom: 32px;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.width {
+    width: 80%;
+}
+ 
+ body {
+    font-family: 'Young Serif', serif;
+ }
+
+img{ width: 100%;}
+
+.card-body {
+    background: #FFF7FB;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.card-body h1 {
+    color: #7A284E;
+    font-size: 20px;
+}
+
+.brandy-red {
+        color: #7A284E;
+
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border-bottom: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+ 
+@media screen  and (min-width:376px){
+    body{
+        background: #F3E5D7;
+    }
+    .wrapper {
+        padding: 200px;
+    }
+
+    .card {
+        border-radius: 24px;
+        background: white;
+     }
+
+    .logo{
+        padding: 0 24px;
+        margin-top: 40px;
+        width: 90%;
+    }
+
+
+.width {
+    width: 100%;
+}
+
+.fs-12{
+    font-size: 12px;
+ }
+}
