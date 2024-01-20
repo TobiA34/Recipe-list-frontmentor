@@ -90,10 +90,15 @@ td, th {
   text-align: left;
   padding: 8px;
 }
-
  
-@media screen  and (min-width: 375px){
-    body{
+@media (min-width:400px) and (max-width:899px) {
+  .logo {
+        padding: 0 24px;
+        margin-top: 40px;
+        width: 85%;
+    }
+
+      body{
         background: #F3E5D7;
              display: flex;
         justify-content: center;
@@ -107,13 +112,9 @@ td, th {
     .card {
         border-radius: 24px;
         background: white;
+        width: 100%;
      }
-
-    .logo{
-        padding: 0 24px;
-        margin-top: 40px;
-        width: 95%;
-    }
+ 
 
 
 .width {
@@ -124,3 +125,40 @@ td, th {
     font-size: 12px;
  }
 }
+ 
+
+ @media (min-width:899px) and (max-width:1440px) {
+  .logo {
+        padding: 0 24px;
+        margin-top: 40px;
+        width: 93%;
+    }
+
+      body{
+        background: #F3E5D7;
+             display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper {
+        padding: 200px;
+        width: 100%;
+    }
+
+    .card {
+        border-radius: 24px;
+        background: white;
+        width: 100%;
+     }
+ 
+
+
+.width {
+    width: 100%;
+}
+
+.fs-12{
+    font-size: 12px;
+ }
+}
+ 
